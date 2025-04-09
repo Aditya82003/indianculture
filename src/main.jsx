@@ -11,13 +11,6 @@ import Footer from './components/Footer.jsx'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    <Header />
-    <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="/contactus" element={<Contactus/>}/>
-      <Route path="/gallery" element={<Gallery/>}/>
-      <Route path="/shopping" element={<Shopping/>}/>
-    </Routes>
-    <Footer/>
+    <App/>
   </BrowserRouter>
 )

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contactus = () => {
   return (
-    <div>Contactus</div>
+    <div className='min-h-screen'>Contactus</div>
   )
 }
 
